@@ -1,0 +1,30 @@
+# AWS Cloud Infrastructure & AI Runtime
+boto3>=1.34.0
+botocore>=1.34.0
+
+# Core Async Engine & Network Services
+asyncio>=3.4.3
+aiohttp>=3.9.0
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+websockets>=12.0
+watchfiles>=0.21.0
+nest-asyncio>=1.6.0
+
+# Quantitative Analytics & Computation
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.12.0
+scikit-learn>=1.4.0
+
+# Storage & Analytical Engines
+duckdb>=0.10.0
+chromadb>=0.4.24
+
+# Data Validation, Telemetry & Logging
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.1
+loguru>=0.7.2
+psutil>=5.9.8
+rich>=13.7.0
